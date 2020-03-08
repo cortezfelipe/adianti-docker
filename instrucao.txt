@@ -1,0 +1,32 @@
+#Levantar seriço
+docker-compose up -d
+
+#Refazer Build
+docker-compose up --build
+
+#listar images
+docker images
+
+#listar todos os containers
+docker ps -a
+
+#parar serviço
+docker stop idd9b100f2f636
+
+#remover docker 
+docker rm idd9b100f2f636
+
+#start docker
+docker start idd9b100f2f636
+
+#Para todas as instâncias
+docker stop $(docker ps -a -q)
+
+#Remove todas as instâncias
+docker rm $(docker ps -a -q)
+
+#Para todas as imagens
+docker image rm $(docker image ls -a -q)
+
+#Para todos os volumes
+docker volume prune
