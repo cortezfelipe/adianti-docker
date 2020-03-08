@@ -14,7 +14,7 @@ cd adianti-docker
 como root rode o comando
 docker-compose up -d
 
-Adianti Template com pwa @auguto e @roni
+Adianti Template com pwa @augusto e @roni
 http://localhost:8001/
 
 phpmyadmin
