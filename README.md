@@ -6,10 +6,11 @@ Instale o docker e docker compose
 https://www.digitalocean.com/community/tutorials/como-instalar-e-usar-o-docker-no-ubuntu-18-04-pt
 
 faça o clone do repositório.
-git clone 
+git clone https://github.com/cortezfelipe/adianti-docker.git
 
 entre na pasta
 cd adianti-docker
+
 como root rode o comando
 docker-compose up -d
 
